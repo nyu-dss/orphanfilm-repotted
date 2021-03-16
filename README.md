@@ -1,22 +1,22 @@
 # orphanfilm-repotted
 
-*see:*
+__see:__
 [nyu-dss/repotting-template](https://github.com/nyu-dss/repotting-template/)
 
-*site name:*
+__site name:__
 A World Community of Old Trees
 
-*"old pot" url:*
+__"old pot" url:__
 [nyu.edu/projects/orphanfilm](https://www.nyu.edu/orphanfilm)
 [nyu.edu/projects/orphans](https://www.nyu.edu/orphans)
 
-*"new pot" url:*
+__"new pot" url:__
 [orphanfilm.hosting.nyu.edu](https://orphanfilm.hosting.nyu.edu/)
 
-*date repotted:*
+__date repotted:__
 02.11.2021
 
-*notes:*
+__notes:__
 the site has lots of audio/visual files, which significantly slows down the httrack crawl. since we had a zip file of the site's contents from the old server, we excluded a/v files from the crawl:
 
 `$ httrack --verbose --clean https://www.nyu.edu/orphanfilm/ -*.mp3 -*.mp4 -*.mov -*.MOV -*.mpg -O docs`
